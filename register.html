@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <!-- CSS only -->
+{{!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> --}}
+    <link href="../public/css/createprofile.css" rel="stylesheet">
+</head>
+<body scroll="no" style="overflow: hidden">
+ <h1>Fill in your details</h1>
+    <div class="details">
+
+     <form action="/register" method="POST">
+
+
+
+        <div class="name">
+         <label for="name">Enter name</label>
+         <input type="text" id="name"  class="input"name="name"> 
+        </div>
+        <br>
+        
+        <div class="email">
+         <label for="email">Email ID </label><br>  
+         <input type="email" id="email" name="email"  class="input"required ><br>
+         </div>
+        <br>
+
+        <div class="role">
+            <label for="role">Role</label>
+            <input type="text" id="name"  class="input"name="name"> 
+           </div>
+           <br>
+        
+        <div class="skills">
+         <label for="skills">Skills </label>
+         <select  id="skill" name="skills" class="input select" data-mdb-placeholder="Choose up to 5 skills"  multiple size="5" data-mdb-filter="true"  >
+         
+          <option value="Troubleshooting">Troubleshooting</option>
+          <option value="softwaredev">Software development </option>
+          <option value="hardwaredev">Hardware development </option>
+          <option value="contentmar">Content marketing</option>
+          <option value="seo">SEO</option>
+           <option value="data">Data Analysis</option>
+          <option value="tw">Technical Writing</option>
+          <option value="pa">Project Management</option>
+          <option value="other">Other</option>
+        </select><br>
+        </div>
+         <br>
+       
+        <div class="language">
+          <label for="lang">Language  </label>
+          <select name="languages" id="lang " name="language" class="input">
+          <option value="select">Select a language</option>
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="java">Java</option>
+          <option value="golang">Golang</option>
+          <option value="python">Python</option>
+          <option value="c#">C#</option>
+          <option value="C++">C++</option>
+          <option value="erlang">Erlang</option>
+        </select><br>
+        </div>
+        <br>
+
+        <div class="cloud">
+            <label for="cloud">Cloud   </label><br>  
+            <select name="cloud" id="cloud" name="cloud" class="input"><br>
+            <option value="select">Select a platform</option>
+            <option value="aws">AWS</option>
+            <option value="gcp">Google Cloud</option>
+            <option value="azure">Microsoft Azure</option>
+            <option value="azure">Oracle</option>
+            <option value="other">Other</option>
+            </select>
+        <br>
+        </div>
+        <br>
+        <div class="devops">
+             <label for="devops" >DevOps  </label><br>  
+             <select name="devops" id="devops" name="devops" class="input"><br>
+             <option value="select" >Select a tool</option>
+              <option value="jenkins">Jenkins</option>
+              <option value="docker">Docker</option>
+              <option value="ansible">Ansible</option>
+              <option value="kubernetes">Kubernetes</option>
+              <option value="openshift">OpenShift</option>
+              <option value="other">Other</option>
+              </select><br>
+         </div>
+        <br>
+        
+        <div class="cv">
+        <label for="cv">CV Link  </label><br>
+        <input type="url" id="cv" class="input" name="cv"><br>
+        </div>
+        <br>
+        
+        <div class="btn">
+        <button name="image"> Upload Image</button>
+        <!-- input type="file"
+       id="avatar" name="avatar"
+       accept="image/png, image/jpeg" -->
+        
+       <button type="submit" value="/register"> Submit</button>
+    </div>
+    
+    </form>
+    </div>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>  
+</body>
+
+</html>

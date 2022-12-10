@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+  
+}
+body{
+    background-image: radial-gradient(circle, #5c0067 0%, #00d4ff 100%);
+    
+        margin: 0;
+        height: 100vh;
+       
+    
+}
+
+.selection{
+    display: flex;
+    justify-content: space-evenly;
+   margin: 25rem 25rem 25rem 25rem;
+    
+}
+.creation{
+   background-color: black;
+   
+    font-size: 16px;
+    
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* letter-spacing: 0.1em; */
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+.creation:hover{
+    color: black;
+    
+}
+.creation:hover{
+    transform: translateY(0) scale(2);
+}
+.searching{
+    background-color: black;
+    
+    font-size: 16px;
+    border-radius: 0.5em;
+    width: 12em;
+    height: 3em;
+    text-transform: uppercase;
+   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* letter-spacing: 0.1em; */
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 1em;
+}
+
+.searching:hover{
+    transform: translateY(0) scale(2);
+}
+.selection>div>a{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}

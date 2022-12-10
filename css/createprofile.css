@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background: linear-gradient(#dc94b3, #c5c9ef);
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 3rem;
+}
+label{
+    height: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: larger;
+    width:6rem
+}
+form{
+    margin-top: 4rem;
+    height: 60vh;
+    border: black solid .2rem;
+  padding:2rem
+  
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+select {
+    
+   
+    outline: 0;
+    background: #62c1e2;
+    color: #fff;
+    border: 1px solid crimson;
+    padding: 4px;
+   
+  }
+ .input{
+    width: 12rem;
+    height: 2rem;
+    margin-left:.5rem;
+  }
+  button:hover{
+    cursor: pointer;
+  }
+  .btn{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
